@@ -1,0 +1,101 @@
+{
+    "rooms": {
+      "living_room": {
+        "image": "images/living_room.jpg",
+        "voiceover": "audio/living_room.mp3",
+        "room_size": "Living Room - 400 sq. ft.",
+        "hotspots": [
+          { "text": "Kitchen", "x": 2, "y": 0, "z": -3, "target": "kitchen", "icon": "kitchen" },
+          { "text": "Master Bedroom", "x": -2, "y": 0, "z": -3, "target": "master_bedroom", "icon": "bed" },
+          { "text": "Bathroom 1", "x": 1.5, "y": -1, "z": -3, "target": "bathroom_1", "icon": "bath" },
+          { "text": "Terrace", "x": 0, "y": 1.5, "z": -3, "target": "terrace", "icon": "sun" }
+        ],
+        "labels": [
+          { "text": "Luxury Sofa - ₹1.5L", "x": 0, "y": -1, "z": -4 },
+          { "text": "Smart TV - ₹2.5L", "x": 2, "y": -1, "z": -4 }
+        ]
+      },
+      "kitchen": {
+        "image": "images/kitchen.jpg",
+        "voiceover": "audio/kitchen.mp3",
+        "room_size": "Kitchen - 250 sq. ft.",
+        "hotspots": [
+          { "text": "Living Room", "x": -2, "y": 0, "z": -3, "target": "living_room", "icon": "sofa" },
+          { "text": "Bedroom 2", "x": 2, "y": 0, "z": -3, "target": "bedroom_2", "icon": "bed" }
+        ],
+        "labels": [
+          { "text": "Modular Kitchen - ₹3L", "x": 1, "y": 0, "z": -3 },
+          { "text": "Refrigerator - ₹80K", "x": -1, "y": 0, "z": -3 }
+        ]
+      },
+      "master_bedroom": {
+        "image": "images/master_bedroom.jpg",
+        "voiceover": "audio/master_bedroom.mp3",
+        "room_size": "Master Bedroom - 500 sq. ft.",
+        "hotspots": [
+          { "text": "Living Room", "x": -1.5, "y": 0, "z": -3, "target": "living_room", "icon": "sofa" },
+          { "text": "Bathroom 2", "x": 1.5, "y": 0, "z": -3, "target": "bathroom_2", "icon": "bath" },
+          { "text": "Bedroom 3", "x": 0, "y": 1, "z": -3, "target": "bedroom_3", "icon": "bed" }
+        ],
+        "labels": [
+          { "text": "King Size Bed - ₹2L", "x": 0, "y": -1, "z": -3 },
+          { "text": "Wardrobe - ₹1.2L", "x": 2, "y": -0.5, "z": -3 }
+        ]
+      },
+      "bedroom_2": {
+        "image": "images/bedroom2.jpg",
+        "voiceover": "audio/bedroom_2.mp3",
+        "room_size": "Bedroom 2 - 350 sq. ft.",
+        "hotspots": [
+          { "text": "Kitchen", "x": -2, "y": 0, "z": -3, "target": "kitchen", "icon": "kitchen" }
+        ],
+        "labels": [
+          { "text": "Queen Size Bed - ₹1.5L", "x": 0, "y": -1, "z": -3 }
+        ]
+      },
+      "bedroom_3": {
+        "image": "images/bedroom3.jpg",
+        "voiceover": "audio/bedroom_3.mp3",
+        "room_size": "Bedroom 3 - 300 sq. ft.",
+        "hotspots": [
+          { "text": "Master Bedroom", "x": 0, "y": -1, "z": -3, "target": "master_bedroom", "icon": "bed" }
+        ],
+        "labels": [
+          { "text": "Twin Beds - ₹1L", "x": 0, "y": -1, "z": -3 }
+        ]
+      },
+      "bathroom_1": {
+        "image": "images/bathroom1.jpg",
+        "voiceover": "audio/bathroom_1.mp3",
+        "room_size": "Bathroom 1 - 80 sq. ft.",
+        "hotspots": [
+          { "text": "Living Room", "x": -1.5, "y": 0, "z": -3, "target": "living_room", "icon": "sofa" }
+        ],
+        "labels": [
+          { "text": "Premium Fixtures - ₹75K", "x": 0, "y": -0.5, "z": -3 }
+        ]
+      },
+      "bathroom_2": {
+        "image": "images/bathroom2.jpg",
+        "voiceover": "audio/bathroom_2.mp3",
+        "room_size": "Bathroom 2 - 100 sq. ft.",
+        "hotspots": [
+          { "text": "Master Bedroom", "x": -1.5, "y": 0, "z": -3, "target": "master_bedroom", "icon": "bed" }
+        ],
+        "labels": [
+          { "text": "Jacuzzi - ₹1.2L", "x": 0, "y": -0.5, "z": -3 }
+        ]
+      },
+      "terrace": {
+        "image": "images/terrace.jpg",
+        "voiceover": "audio/terrace.mp3",
+        "room_size": "Terrace - 700 sq. ft.",
+        "hotspots": [
+          { "text": "Living Room", "x": 0, "y": -1.5, "z": -3, "target": "living_room", "icon": "sofa" }
+        ],
+        "labels": [
+          { "text": "Garden Setup - ₹50K", "x": 1, "y": -0.5, "z": -3 },
+          { "text": "Outdoor Seating - ₹85K", "x": -1, "y": -0.5, "z": -3 }
+        ]
+      }
+    }}
